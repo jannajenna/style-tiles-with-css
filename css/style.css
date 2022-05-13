@@ -236,14 +236,15 @@ button:focus-within {
 }
 
 .h1-sample {
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-family: var(--sans-font);
   color: var(--c-color-blue);
+  font-weight: 500;
 }
 
 .h2-sample {
   font-family: var(--sans-font);
-  font-style: italic;
+  font-weight: 400;
   font-size: 1.25rem;
   color: var(--c-color-blue);
 }
@@ -288,7 +289,7 @@ p[class*="font-details-"] {
 
 .adjectives ul {
   font-size: 2rem;
-  opacity: 0.5;
+  /*  opacity: 0.8; */
 }
 
 .adjectives ul {
@@ -296,6 +297,17 @@ p[class*="font-details-"] {
 }
 
 footer {
+  font-style: italic;
+}
+
+.li1 {
+  font-family: var(--sans-font);
+  color: var(--c-color-blue);
+}
+
+.li2 {
+  font-family: var(--serif-font);
+  color: var(--c-color-blue);
   font-style: italic;
 }
 
